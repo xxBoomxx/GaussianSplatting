@@ -103,6 +103,8 @@ says that the official _training_ software for the Gaussian Splats is for educat
 purpose; commercial usage requires getting license from INRIA. That is: even if this viewer / integration
 into Unity is just "MIT license", you need to separately consider *how* did you get your Gaussian Splat PLY files.
 
+##----------------------------------------------------------------------------------------------------------------------------------
+
 
 ## Unity Config：
 * DX12
