@@ -57,7 +57,8 @@ namespace GaussianSplatting.Editor
             m_FormatColor != GaussianSplatAsset.ColorFormat.Float32x4 ||
             m_FormatSH != GaussianSplatAsset.SHFormat.Float32;
 
-        [MenuItem("Tools/Gaussian Splats/Create GaussianSplatAsset")]
+        //[MenuItem("Tools/Gaussian Splats/Create GaussianSplatAsset")]
+        [MenuItem("LYAR/Gaussian Splats/Create GaussianSplatAsset")]
         public static void Init()
         {
             var window = GetWindowWithRect<GaussianSplatAssetCreator>(new Rect(50, 50, 360, 340), false, "Gaussian Splat Creator", true);

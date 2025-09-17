@@ -7,7 +7,7 @@ namespace GaussianSplatting.Editor.Utils
 {
     public class CaptureScreenshot : MonoBehaviour
     {
-        [MenuItem("Tools/Gaussian Splats/Debug/Capture Screenshot %g")]
+        //[MenuItem("Tools/Gaussian Splats/Debug/Capture Screenshot %g")]
         public static void CaptureShot()
         {
             int counter = 0;

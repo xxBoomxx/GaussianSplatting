@@ -24,13 +24,13 @@ namespace GaussianSplatting.Editor
         }
 
         // currently on RTX 3080Ti: 43.76, 39.36, 43.50 PSNR
-        [MenuItem("Tools/Gaussian Splats/Debug/Validate Render against SBIR")]
+        //[MenuItem("Tools/Gaussian Splats/Debug/Validate Render against SBIR")]
         public static void ValidateSBIR()
         {
             ValidateImpl("SBIR");
         }
         // currently on RTX 3080Ti: matches
-        [MenuItem("Tools/Gaussian Splats/Debug/Validate Render against D3D12")]
+        //[MenuItem("Tools/Gaussian Splats/Debug/Validate Render against D3D12")]
         public static void ValidateD3D12()
         {
             ValidateImpl("D3D12");
